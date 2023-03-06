@@ -172,6 +172,9 @@ GameObject:
   - component: {fileID: 7947692472284134747}
   - component: {fileID: 8398578149247620162}
   - component: {fileID: 1709097053104435176}
+  - component: {fileID: 3306145487494385609}
+  - component: {fileID: 7947071225647233451}
+  - component: {fileID: 4672501670015958885}
   m_Layer: 0
   m_Name: Animal_Chick
   m_TagString: Untagged
@@ -228,7 +231,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c97bbdc44f7a2d9479c5ba39e17556a3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 7
+  speed: 40
 --- !u!114 &1709097053104435176
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -239,6 +242,47 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3f03e8cd2a5d24742975e0e4c274d538, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!65 &3306145487494385609
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7947692472276747501}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3.3743906, y: 6.1808, z: 7.8891244}
+  m_Center: {x: -0.0014388908, y: 3.0944269, z: 0.27063188}
+--- !u!54 &7947071225647233451
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7947692472276747501}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!114 &4672501670015958885
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7947692472276747501}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6fe2a20ba993424a994740cea79116d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &7947692472276755297
