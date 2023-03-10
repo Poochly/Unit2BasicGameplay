@@ -339,6 +339,10 @@ MonoBehaviour:
   horizontalInput: 0
   speed: 10
   xRange: 10
+  projectilePrefab: {fileID: 0}
+  zMin: -5
+  zMax: 15
+  verticalInput: 10
 --- !u!1 &2944808312631802893
 GameObject:
   m_ObjectHideFlags: 0

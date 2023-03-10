@@ -627,6 +627,9 @@ MonoBehaviour:
   - {fileID: 7947692472276747501, guid: b61f6eede5c33af4a86315c8287a31d6, type: 3}
   - {fileID: 1199653940752865791, guid: 59067d0d61182464d866d30bf6161df0, type: 3}
   - {fileID: 4063895871692645314, guid: 03b2d31d0b8bb2c4abd7c1dddb8d7dd9, type: 3}
+  sideSpawnMinZ: 0
+  sideSpawnMaxZ: 0
+  sideSpawnX: 0
 --- !u!4 &1083812567
 Transform:
   m_ObjectHideFlags: 0
@@ -656,7 +659,7 @@ BoxCollider:
   m_GameObject: {fileID: 1538515953}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -781,6 +784,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2944808311194572875, guid: 96720f303f5a46943aa44213ea66f491, type: 3}
+      propertyPath: zMax
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 2944808311194572875, guid: 96720f303f5a46943aa44213ea66f491, type: 3}
+      propertyPath: zMin
+      value: -5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2944808311194572875, guid: 96720f303f5a46943aa44213ea66f491, type: 3}
+      propertyPath: xRange
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 2944808311194572875, guid: 96720f303f5a46943aa44213ea66f491, type: 3}
+      propertyPath: verticalInput
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2944808311194572875, guid: 96720f303f5a46943aa44213ea66f491, type: 3}
       propertyPath: projectilePrefab
       value: 
