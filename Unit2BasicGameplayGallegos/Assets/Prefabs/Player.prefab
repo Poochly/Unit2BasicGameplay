@@ -277,9 +277,11 @@ GameObject:
   - component: {fileID: 2944808312632156265}
   - component: {fileID: 2944808312641179559}
   - component: {fileID: 2944808311194572875}
+  - component: {fileID: -622756906714053329}
+  - component: {fileID: 6138218657637328358}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -343,6 +345,31 @@ MonoBehaviour:
   zMin: -5
   zMax: 15
   verticalInput: 10
+--- !u!114 &-622756906714053329
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2944808312631802889}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6fe2a20ba993424a994740cea79116d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!65 &6138218657637328358
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2944808312631802889}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 3.5625856, z: 1}
+  m_Center: {x: 0, y: 1.244419, z: 0}
 --- !u!1 &2944808312631802893
 GameObject:
   m_ObjectHideFlags: 0

@@ -1349,7 +1349,7 @@ GameObject:
   - component: {fileID: 3650790750691320225}
   m_Layer: 0
   m_Name: Animal_Horse_Brown
-  m_TagString: Untagged
+  m_TagString: Animal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1431,8 +1431,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.026693, y: 36.61175, z: 44.032207}
-  m_Center: {x: -0.054831505, y: 17.80588, z: 3.7101884}
+  m_Size: {x: 10.026693, y: 41.952255, z: 44.032207}
+  m_Center: {x: -0.054831505, y: 15.135628, z: 3.7101889}
 --- !u!54 &5649541292577354063
 Rigidbody:
   m_ObjectHideFlags: 0
