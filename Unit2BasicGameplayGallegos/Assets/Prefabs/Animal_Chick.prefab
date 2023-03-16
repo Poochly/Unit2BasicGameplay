@@ -174,7 +174,7 @@ GameObject:
   - component: {fileID: 1709097053104435176}
   - component: {fileID: 3306145487494385609}
   - component: {fileID: 7947071225647233451}
-  - component: {fileID: 4672501670015958885}
+  - component: {fileID: -7470154568169014456}
   m_Layer: 0
   m_Name: Animal_Chick
   m_TagString: Animal
@@ -273,7 +273,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &4672501670015958885
+--- !u!114 &-7470154568169014456
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
